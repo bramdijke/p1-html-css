@@ -1,10 +1,21 @@
 header {
     font-weight: bold;
+    height: 200%;
+    width: 100%;
 }
 
-h1 {
+header img {
+    width: 100%;
+    height: 200%;
+}
+
+header p {
+    color: #810065
+}
+
+header h1 {
   font-size: 24;
-  color: blue;
+  color: rgb(174, 0, 189);
   font-style: italic;
 }
 
@@ -31,4 +42,11 @@ a {
 
 img {
     width: 50%;
+}
+
+article {
+    border: 8px solid #ff0000;
+    border-radius: 25px;
+    border-style: groove;  
+    border-left-width: 4px; 
 }
