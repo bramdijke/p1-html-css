@@ -55,3 +55,13 @@ section {
   height:100vh;
   width:100vw;
 }
+
+.container {
+  height: 100vh;
+  width: 100vw;
+  background-image: url(./img/hackerimage.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+}
