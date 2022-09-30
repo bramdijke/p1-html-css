@@ -7,11 +7,9 @@ html {
   font-size: 62.5%;
   background-color: black;
   color: white;
-  
 }
 body {
   font-family: "Goldman", cursive;
-  
 }
 
 nav {
@@ -24,6 +22,7 @@ nav {
   margin: auto;
   background: #00a8c7;
   justify-content: space-between;
+  position: fixed;
 }
 nav ul {
   display: flex;
@@ -43,17 +42,29 @@ nav img {
 }
 
 footer {
-  background-color:#00a8c7 ;
+  background-color: #00a8c7;
   min-height: 10vh;
+  position: absolute;
+  width: 100vw;
+  text-align: center;
+  padding-top: 1vh;
+  font-size: 2rem;
 }
+
 
 h1, h2 {
   font-weight: bold;
 }
 
+h2 {
+  text-align: center;
+  font-size: 4rem;
+}
+
 section {
-  height:100vh;
-  width:100vw;
+  height: 100vh;
+  width: 100vw;
+  font-size: 2rem;
 }
 
 .container {
@@ -63,5 +74,55 @@ section {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+
+.container p {
+  bottom: 0;
+}
+
+.htmllogo {
+  float: left;
+  margin: 5vw;
+}
+
+.htmltext {
+  float: right;
+  width: 45vw;
+  margin: 5vw;
+}
+
+.jslogo {
+  float: right;
+  margin: 5vw;
+}
+
+.jstext {
+  float: left;
+  width: 40vw;
+  margin: 5vw;
+}
+
+.phplogo {
+  float: left;
+  margin: 5vw;
+}
+
+.phptext {
+  float: right;
+  width: 40vw;
+  margin: 5vw;
+}
+
+.mysqllogo {
+  float: right;
+  margin: 5vw;
+}
+
+.mysqltext {
+  float: left;
+  width: 40vw;
+  margin: 5vw;
 }
