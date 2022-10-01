@@ -1,0 +1,24 @@
+html {
+    font-size: 62,5%;
+}
+
+ul  {
+    display: flex;
+    list-style-type: none;
+    color: #0000FF;
+    justify-content: space-between;
+    font-size: 1.5rem;
+    padding: 0;
+}
+
+.logo, .login {
+    width: 25vw;
+    text-align: center;
+
+}
+
+.navitems {
+    width: 50vw;
+    display: flex;
+    justify-content: space-evenly;
+}
