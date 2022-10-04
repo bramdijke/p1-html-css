@@ -12,7 +12,7 @@ body {
   font-family: "Goldman", cursive;
 }
 
-nav {
+nav { 
   display: flex;
   width: 100%;
   padding: 2rem;
@@ -142,7 +142,6 @@ section {
 .dropdown-content a {
   color: #00a8c7;
   padding: 0.8rem 1rem;
-  display: block;
   text-align: left;
 }
 
@@ -151,8 +150,9 @@ section {
 }
 
 .dropdown:hover .dropdown-content {
-  display: block;
+  display: flex;
   background-color: #FFFFFF;
+  flex-direction: column;
 }
 
 .dropbtn:hover {
