@@ -275,7 +275,7 @@ footer {
   }
 
   .section-card-single {
-    width: 85vw;
+    width: 70vw;
     margin: 1rem;
   }
 
@@ -293,16 +293,18 @@ footer {
 
   footer {
     flex-direction: column;
-    height: 12vh;
+    height: 14vh;
   }
 
   .footer-travelly-tag {
     width: 100vw;
     text-align: center;
+    margin-top: 1rem;
   }
 
   .footer-social {
     width: 100vw;
     justify-content: space-around;
+    margin-bottom: 1rem;
   }
 }
